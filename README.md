@@ -1,4 +1,4 @@
-# Händlerbund Api
+# Händlerbund API
 
 This gem provides a simpe method to access [Händlerbund's](http://www.haendlerbund.de) API for (German) legal documents for online shopping use. You will need to sign up for an account with them and ask them for an access token. 
 
