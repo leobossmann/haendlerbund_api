@@ -1,4 +1,4 @@
-# Haendlerbund Api
+# Händlerbund Api
 
 This gem provides a simpe method to access [Händlerbund's](http://www.haendlerbund.de) API for (German) legal documents for online shopping use. You will need to sign up for an account with them and ask them for an access token. 
 
@@ -6,15 +6,11 @@ This gem provides a simpe method to access [Händlerbund's](http://www.haendlerb
 
 Add this line to your application's Gemfile:
 
-    gem 'haendlerbund_api'
+    gem 'haendlerbund_api', :git => 'git://github.com/leobossmann/haendlerbund_api'
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install haendlerbund_api
 
 ## Usage
 
