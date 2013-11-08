@@ -16,6 +16,7 @@ And then execute:
 
 initalize the API client with your access token:
 
+    require 'haendlerbund_api'
     @client = HaendlerbundApi::LegalDocuments.new('access_token')
 
 Then you can access the legal documents for your store:
