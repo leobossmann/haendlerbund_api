@@ -1,6 +1,6 @@
 # Händlerbund API
 
-This gem provides a simpe method to access [Händlerbund's](http://www.haendlerbund.de) API for (German) legal documents for online shopping use. You will need to sign up for an account with them and ask them for an access token. 
+This gem provides a simpe method to access [Händlerbund's](http://www.haendlerbund.de) API for (German) legal documents for online shopping use. You will need to sign up for an account with them and ask them for an access token.
 
 ## Installation
 
@@ -26,7 +26,6 @@ Then you can access the legal documents for your store:
 The following document types are available:
 
 * terms\_and\_conditions (Allgemeine Geschäftsbedingungen)
-* return\_policy (Rückgaberecht für Verbraucher)
 * cancellation\_policy (Widerrufsbelehrung)
 * payment\_and\_delivery\_terms (Bedingungen für Zahlung und Versand)
 * privacy\_policy (Datenschutzerklärung)
@@ -43,7 +42,7 @@ The following document modes are available:
 * classes (HTML with CSS classes)
 * classes\_head (HTML with CSS classes and CSS Snippet in header)
 * plain (plain text)
-  
+
 
 ## Contributing
 

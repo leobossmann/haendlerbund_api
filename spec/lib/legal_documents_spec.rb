@@ -5,17 +5,16 @@ describe HaendlerbundApi::LegalDocuments do
   api_key = '1IqJF0ap6GdDNF7HKzhFyciibdml8t4v'
   access_token = 'xyzxyz'
   document_types = {
-    "12766C46A8A" => "terms_and_conditions", 
-    "12766C4A6BE" => "return_policy", 
-    "12766C53647" => "cancellation_policy", 
-    "12766C58F26" => "payment_and_delivery_terms", 
-    "12766C5E204" => "privacy_policy",
-    "1293C20B491" => "imprint",
-    "134CBB4D101" => "battery_information"
+    '12766C46A8A' => 'terms_and_conditions',
+    '12766C53647' => 'cancellation_policy',
+    '12766C58F26' => 'payment_and_delivery_terms',
+    '12766C5E204' => 'privacy_policy',
+    '1293C20B491' => 'imprint',
+    '134CBB4D101' => 'battery_information'
   }
 
   document_modes = %w(default classes plain classes_head)
-  
+
   before :each do
     document_types.each do |text_id, document_name|
       document_modes.each do |mode|

@@ -15,11 +15,6 @@ module HaendlerbundApi
       make_request('12766C46A8A', options[:mode])
     end
 
-    def return_policy(args = {})
-      options = { :mode => :default }.merge(args)
-      make_request('12766C4A6BE', options[:mode])
-    end
-
     def cancellation_policy(args = {})
       options = { :mode => :default }.merge(args)
       make_request('12766C53647', options[:mode])
