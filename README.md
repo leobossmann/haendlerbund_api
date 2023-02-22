@@ -21,7 +21,11 @@ initalize the API client with your access token:
 
 Then you can access the legal documents for your store:
 
-    @client.terms_and_conditions
+    @client.terms_and_conditions.body
+
+The response of the client contains the full HTTP response, so you can check the status code:
+
+    @client.imprint.response.code
 
 The following document types are available:
 

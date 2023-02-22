@@ -41,7 +41,7 @@ module HaendlerbundApi
     end
 
     def make_request(text_id, mode)
-      self.class.get("&did=#{text_id}&mode=#{mode}").body
+      self.class.get("&did=#{text_id}&mode=#{mode}")
     end
   end
 end

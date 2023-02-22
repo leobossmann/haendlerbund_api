@@ -32,11 +32,11 @@ describe HaendlerbundApi::LegalDocuments do
         subject.should respond_to document_name
       end
       it 'should return HTML in default styling when called without mode parameter' do
-        subject.send(document_name).should == "#{document_name} default"
+        subject.send(document_name).body.should == "#{document_name} default"
       end
       document_modes.each do |mode|
         it "should return content in #{mode} mode" do
-          subject.send(document_name, :mode => mode).should == "#{document_name} #{mode}"
+          subject.send(document_name, :mode => mode).body.should == "#{document_name} #{mode}"
         end
       end
     end
